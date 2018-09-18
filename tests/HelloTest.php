@@ -7,7 +7,7 @@ class HelloWorldTest extends TestCase
     public function testHelloWorld ()
     {
         require('../hello.php');
-        $this->expectOutputString('Hello world');
+        $this->expectOutputString('Hola mon');
     }
 
     public function testMyFunction() {
