@@ -2,9 +2,18 @@
 
 use PHPUnit\Framework\TestCase;
 
-
-class HelloTest extends TestCase
+class HelloWorldTest extends TestCase
 {
-    require("./hello.php");
-    $this->expectOutputString('Hello world');
+    public function testHelloWorld ()
+    {
+        require('../hello.php');
+        $this->expectOutputString('Hello world');
+    }
+
+    public function testMyFunction() {
+//        include_once 'path/to/script.php';
+//        $result = someFunction();
+//
+//        $this->assertEquals('expected result', $result);
+    }
 }
