@@ -18,10 +18,6 @@
 
 // WISHFUL THINKING | WISHFUL PROGRAMMING
 
-function hello($who) {
-    // OPCIONAL // Parametres opcionas
-//    if()
-    echo 'Hola ' . $who;
-}
+require 'functions.php';
 
-hello('');
+hello('Pepe');
