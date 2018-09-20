@@ -1,5 +1,16 @@
 <?php
 
-require 'models/Task.php';
+//require 'models/Task.php';
+//
+//new Task();
+//
+////new PDO()
+///
 
-new Task();
+$tasks = [
+    'Comprar pa',
+    'Comprar llet',
+    'Estudiar PHP'
+];
+
+require 'views/tasks.blade.php';
