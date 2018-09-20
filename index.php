@@ -1,6 +1,5 @@
 <?php
 
-require 'functions.php';
 //
 //var_dump($_GET['greeting']);
 //die();
@@ -36,6 +35,8 @@ require 'functions.php';
 //    'mobile' => '67845712'
 //    //'email'
 //]
+
+require 'functions.php';
 
 $greeting= hello($_GET['greeting']);
 
