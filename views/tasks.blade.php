@@ -8,18 +8,6 @@
     <title>Tasques</title>
 </head>
 <body>
-<!-- ul>li*5 -->
-<!--
-<ul>
-    <?php
-    foreach ($tasks as $task) {
-        var_dump($task);
-        echo "<li>$task</li>" ;
-    }
-    ?>
-</ul>
--->
-
 
 <ul>
     <?php foreach ($tasks as $task) : ?>
