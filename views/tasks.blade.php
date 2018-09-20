@@ -13,15 +13,25 @@
 <ul>
     <?php
     foreach ($tasks as $task) {
+        var_dump($task);
         echo "<li>$task</li>" ;
     }
     ?>
 </ul>
 -->
 
+
 <ul>
     <?php foreach ($tasks as $task) : ?>
-        <li><?= $task; ?></li>
+        <li>
+            <?php if ($task['completed'] == true): ?>
+                <strike>
+            <?php endif; ?>
+            <?= $task['name']; ?>
+            <?php if ($task['completed'] == true): ?>
+                </strike>
+            <?php endif; ?>
+        </li>
     <?php endforeach;?>
 </ul>
 
