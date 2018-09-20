@@ -13,42 +13,33 @@
 <ul>
     @foreach ($tasks as $task)
     <li>
-@if ($task['completed'] == true)
+@if ($task->completed == true)
         <strike>
 @endif
-    {{ $task['name'] }}
-    @if ($task['completed'] == true)
+    {{ $task->name }}
+    @if ($task->completed == true)
         </strike>
 @endif
             </li>
 @endforeach
         </ul>
-        
+
 -->
 
 <ul>
     <?php foreach ($tasks as $task) : ?>
         <li>
-            <?php if ($task['completed'] == true): ?>
+            <?php if ($task->completed == true): ?>
                 <strike>
             <?php endif; ?>
-            <?= $task['name']; ?>
-            <?php if ($task['completed'] == true): ?>
+            <?= $task->name; ?>
+            <?php if ($task->completed == true): ?>
                 </strike>
             <?php endif; ?>
         </li>
     <?php endforeach;?>
 </ul>
 
-<hr>
-<h1>Tasks</h1>
-<p>Les meves tasques pendents són:</p>
-<ul>
-    <li>Comprar pa</li>
-    <li>Comprar llet</li>
-    <li>Practicar PHP</li>
-    <li><strike>Practicar git</strike></li>
-    <li><strike>bbla baavsd as</strike></li>
-</ul>
+
 </body>
 </html>

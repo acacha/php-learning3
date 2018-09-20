@@ -1,9 +1,9 @@
 <?php
 
+require 'models/Task.php';
+
 //require 'models/Task.php';
-//
-//new Task();
-//
+
 ////new PDO()
 ///
 
@@ -14,18 +14,9 @@
 //$tasks = [$task1, $task2, $task3];
 
 $tasks = [
-    [
-        'name' => 'Comprar pa',
-        'completed' => false
-    ],
-    [
-        'name' => 'Comprar llet',
-        'completed' => true
-    ],
-    [
-        'name' => 'Fer el llit',
-        'completed' => false
-    ]
+    new Task('Comprar pa', false),
+    new Task('Comprar llet', true),
+    new Task('Fer el llit', false)
 ];
 
 require 'views/tasks.blade.php';
