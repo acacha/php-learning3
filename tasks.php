@@ -1,12 +1,8 @@
 <?php
 
+require 'framework/bootstrap.php';
 require 'models/Task.php';
-require 'framework/database/connect.php';
 
-//connect();
-$pdo = connect();
-$statement = $pdo->prepare('SELECT * FROM tasks;');
-$statement->execute();
-$tasks = $statement->fetchAll(PDO::FETCH_CLASS);
+$tasks = Task::all();
 
 require 'views/tasks.blade.php';
