@@ -10,13 +10,13 @@
 <body>
 
 <ul>
-    <?php foreach ($tasks as $task) : ?>
+    <?php foreach ($people as $person) : ?>
         <li>
-            <?php if ($task->completed == true): ?>
+            <?php if ($person->completed == true): ?>
                 <strike>
             <?php endif; ?>
-            <?= $task->name; ?>
-            <?php if ($task->completed == true): ?>
+            <?= $person->name; ?>
+            <?php if ($person->completed == true): ?>
                 </strike>
             <?php endif; ?>
         </li>
