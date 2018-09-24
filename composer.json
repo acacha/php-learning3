@@ -1,5 +1,21 @@
 {
+    "name": "sergi/php-learning3",
+    "description": "Bla bla bla",
+    "authors": [
+        {
+            "name": "Sergi Tur Badenas",
+            "email": "sergiturbadenas@gmail.com"
+        }
+    ],
     "require": {
         "phpunit/phpunit": "^7.3"
+    },
+    "autoload": {
+        "classmap": [
+            "./"
+        ],
+        "files" : [
+            "./helpers.php"
+            ]
     }
 }
