@@ -9,6 +9,7 @@
 </head>
 <body>
 
+<h1>Lessons:</h1>
 <ul>
     <?php foreach ($lessons as $lesson) : ?>
         <li>
