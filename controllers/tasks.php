@@ -1,4 +1,5 @@
 <?php
 
 $tasks = Task::all();
-require view('tasks',$tasks);
+require view('tasks');
+//require view('tasks',$tasks);
