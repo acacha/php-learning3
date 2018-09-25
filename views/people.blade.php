@@ -1,8 +1,5 @@
 <?php require 'partials/header.blade.php' ?>
 
-<?php require 'partials/navigation.blade.php' ?>
-
-
 <h1>People</h1>
 <ul>
     <?php foreach ($people as $person) : ?>

@@ -1,7 +1,5 @@
 <?php require 'partials/header.blade.php' ?>
 
-<?php require 'partials/navigation.blade.php' ?>
-
 <ul>
     <?php foreach ($tasks as $task) : ?>
         <li>
