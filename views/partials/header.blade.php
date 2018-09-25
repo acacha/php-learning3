@@ -36,7 +36,7 @@
                 </v-list-tile>
                 <v-list-tile href="/people">
                     <v-list-tile-action>
-                        <v-icon>contact_mail</v-icon>
+                        <v-icon>accessibility</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
                         <v-list-tile-title>Persones</v-list-tile-title>
