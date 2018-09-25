@@ -9,15 +9,11 @@
 </head>
 <body>
 
-<nav>
-    <ul>
-        <li><a href="/tasks.php">Tasques</a></li>
-        <li><a href="/people.php">Persones</a></li>
-        <li><a href="/lessons.php">Lliçons</a></li>
-        <li><a href="/contact.php">Contacte</a></li>
-        <li><a href="/about.php">Sobre nosaltres</a></li>
-    </ul>
-</nav>
+<?php require 'partials/navigation.blade.php' ?>
+
 <h1>ABOUT</h1>
+
+<?php require 'partials/footer.blade.php' ?>
+
 </body>
 </html>

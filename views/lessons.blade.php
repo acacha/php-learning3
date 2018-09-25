@@ -9,6 +9,9 @@
 </head>
 <body>
 
+<?php require 'partials/navigation.blade.php' ?>
+
+
 <h1>Lessons:</h1>
 <ul>
     <?php foreach ($lessons as $lesson) : ?>
@@ -17,6 +20,7 @@
         </li>
     <?php endforeach;?>
 </ul>
+<?php require 'partials/footer.blade.php' ?>
 
 
 </body>

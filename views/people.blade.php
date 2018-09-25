@@ -9,6 +9,9 @@
 </head>
 <body>
 
+<?php require 'partials/navigation.blade.php' ?>
+
+
 <h1>People</h1>
 <ul>
     <?php foreach ($people as $person) : ?>
@@ -18,6 +21,7 @@
     <?php endforeach;?>
 </ul>
 
+<?php require 'partials/footer.blade.php' ?>
 
 </body>
 </html>
