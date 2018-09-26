@@ -1,7 +1,7 @@
 <?php require 'partials/header.blade.php' ?>
 
 <v-card>
-    <v-toolbar color="cyan" dark>
+    <v-toolbar color="primary" dark>
         <v-toolbar-side-icon></v-toolbar-side-icon>
 
         <v-toolbar-title>Tasques</v-toolbar-title>
